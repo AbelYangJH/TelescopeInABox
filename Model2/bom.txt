@@ -1,0 +1,93 @@
+Bill of Materials
+
+Model 2 - 1148v4
+
+M6 Nut x4
+M6x20 hex head bolt x4
+
+M4x40 hex head bolt x5
+M4 spring x3
+M4 nut x8
+M4x15 thumb screw x2
+
+M3x10 screw x8
+M3x20 screw x2
+M3 nut x7
+M3x15 screw x4
+M3x10 thumbscrew x1
+
+20mmx450mm dia pole x4
+15mmx450mm square pole x1
+
+Count	Material	Filament (g)	File
+1	PETG-CF	96	1148FDM-BASE-AziBlock-1.0-PCE.stl
+1	PETG	20	1148FDM-BASE-BaseHub-1.0-PPE.stl
+1	PETG-CF	47	1148FDM-BASE-RockerL-1.0-PCE.stl
+1	PETG-CF	47	1148FDM-BASE-RockerR-1.0-PCE.stl
+1	PETG-CF	5	1148FDM-FOCA-ActiveLock-F317-1.0-PCE.stl
+	PETG-CF		1148FDM-FOCA-EndLock-F317-1.0-PCE.stl
+1	PETG-CF	38	1148FDM-FOCA-FocusTube-F317-1.0-PCE.stl
+2	PETG-CF	5	1148FDM-PRIC_BaseKnob-1.0-PCE.stl
+2	PETG-CF	3	1148FDM-PRIC_CollBolt-1.0-PCE.stl
+2	PETG-CF	2	1148FDM-PRIC-CollKnob-1.0-PCE.stl
+	PETG		1148FDM-PRIC-Counterweight-1.0-PPE.stl
+1	PETG-CF	86	1148FDM-PRIC-LowerCell-1.0-PCE.stl
+1	PETG-CF	54	1148FDM-PRIC-MirrorCell-1.0-PCE.stl
+4	PETG-CF	1	1148FDM-PRIC-TopClip-1.0-PCE.stl
+2	PETG	4	1148FDM-SARM-ColletClamp-1.0-PPE.stl
+2	PETG-CF	21	1148FDM-SARM-ColletJoint-1.0-PCE.stl
+2	PETG-CF	9	1148FDM-SARM-ColletLock-1.0-PCE.stl
+1	PETG	9	1148FDM-SARM-FinderMount-1.0-PPE.stl
+1	PETG	18	1148FDM-SARM-FootBase-1.0-PPE.stl
+1	PETG	14	1148FDM-SARM-FootClamp-1.0-PPE.stl
+	PETG-CF		1148FDM-SARM-MiddleClamp-1.0-PCE.stl
+2	PETG-CF	14	1148FDM-SARM-PoleBase-1.0-PCE.stl
+1	PETG-CF	21	1148FDM-SECA-BackPlate-F317-1.0-PCE.stl
+1	PETG-CF	25	1148FDM-SECA-LowerClamp-1.0-PCE.stl
+1	PETG-CF	10	1148FDM-SECA-MirrorPad-1.0-PCE.stl
+1	PETG-CF	29	1148FDM-SECA-Spider-1.0-PCE.stl
+1	PETG-CF	4	1148FDM-SECA-TiltPlate-1.0-PCE.stl
+
+PETG-CF	574g
+PETG	69g
+
+System Spec
+1148FDM	114mm f/8 FDM Primary cell
+
+Subassembly
+PRIC	Primary Cell
+BASE	Rocker Base
+SARM	Secondary Arm
+SECA	Secondary Assembly
+FOCA	Focuser
+
+PartID
+PRIC-BaseKnob
+PRIC-CollBolt
+PRIC-CollKnob
+PRIC-Counterweight	Beta
+PRIC-LowerCell
+PRIC-MirrorCell
+PRIC-TopClip
+SARM-ColletClamp
+SARM-ColletJoint
+SARM-ColletLock
+SARM-FinderMount
+SARM-FootBase
+SARM-FootClamp
+SARM-MiddleClamp	Beta
+SARM-PoleBase
+BASE-RockerL
+BASE-RockerR
+BASE-AziBlock
+BASE-Azihub	TODO
+SECA-BackPlate
+SECA-LowerClamp
+SECA-MirrorPad
+SECA-Spider
+SECA-TiltPlate
+FOCA-ActiveLock
+FOCA-EndLock	Beta
+FOCA-FocusTube
+
+

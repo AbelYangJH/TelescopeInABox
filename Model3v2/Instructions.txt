@@ -1,0 +1,116 @@
+Machined parts:
+
+PrimaryMirrorCell-UpperCell.step	: 1x Al6061
+Primary-RockerRail.step	: 2x Al6061
+
+
+Cut parts:
+
+Focuser-FocuserPlate.step	: 1x SS304
+Secondary-SpiderVane.step	: 1x SS304
+
+
+Printed parts (FDM):
+
+All parts unless specified:
+0.2mm layer height, 30-40% gyroid or grid infill, 3 perimeters of 0.6mm or 4 perimeters of 0.4mm, top and bottom layers 1mm min thickness
+0.4mm or 0.6mm nozzle
+ABS or PETG
+
+Base-BaseBearingTop_1x.stl	: ABS or PETG
+Base-BasePadSide_4x.stl	: ABS or PETG
+Base-BaseWheel_4x.stl	: TPU/TPE 25% infill, 2 walls, infill width 0.4mm, No top and bottom layers, random scarf seam
+Base-BaseWheelBlockSB_4x.stl	: ABS or PETG
+Base-SideGuardPostA_2x.stl	: PETG
+Base-SideGuardPostB_2x.stl	: PETG
+BracePole-Pivot_4x.stl	: ABS or PETG
+BracePole-PoleClamp_2x.stl	: ABS or PETG
+Common-CounterWeightClamp_1x.stl	: ABS or PETG
+Focuser-EyepieceAdaptor_1x.stl	: Black ABS or PETG
+Focuser-FocuserBase_1x.stl	: Black ABS or PETG
+Focuser-FocuserSpring_1x.stl	: Black ABS or PETG
+Focuser-FocuserTube_1x.stl	: Black ABS or PETG
+PoleAssembly-PoleBase_4x.stl	: ABS or PETG
+PoleAssembly-PoleBaseThreaded_4x.stl	: ABS or PETG
+Primary-EndStopperA_1x.stl	: ABS or PETG
+Primary-EndStopperB_1x.stl	: ABS or PETG
+PrimaryMirrorCell-LowerPad_3x.stl	: ABS or PETG
+PrimaryMirrorCell-MirrorClip_4x.stl	: Black ABS or PETG
+PrimaryMirrorCell-PrimaryMirrorCover_x1.stl	: ABS or PETG
+Primary-SideArmBase_2x.stl	: Black ABS or PETG
+Secondary-LowerClamp_2x.stl	: Black ABS or PETG
+SecondaryMirrorCell-MirrorCap_1x.stl	: Black ABS or PETG
+SecondaryMirrorCell-MirrorPad_1x.stl	: Black ABS or PETG
+SecondaryMirrorCell-SecondaryClip_1x.stl	: Black ABS or PETG
+SecondaryMirrorCell-SpiderHub_Main_1x.stl	: Black ABS or PETG
+SecondaryMirrorCell-TiltPlate_1x.stl	: Black ABS or PETG
+Secondary-MirrorCover_625_x1.stl	: ABS or PETG
+Secondary-MirrorCoverCap_625_x1.stl	: ABS or PETG
+Secondary-UpperArc_1x.stl	: ABS or PETG
+Secondary-UpperArcA_1x.stl	: ABS or PETG
+Secondary-UpperArcB_1x.stl	: ABS or PETG
+Secondary-UpperArcC_1x.stl	: ABS or PETG
+Secondary-UpperClamp_2x.stl	: Black ABS or PETG
+
+
+Printed parts (SLS):
+
+The following parts may alternatively be printed in SLS PA12:
+Common-CounterWeightClamp_1x.stl
+Primary-EndStopperA_1x.stl
+Primary-EndStopperB_1x.stl
+PrimaryMirrorCell-MirrorClip_4x.stl	: Black
+Secondary-LowerClamp_2x.stl	: Black
+SecondaryMirrorCell-MirrorPad_1x.stl	: Black
+SecondaryMirrorCell-SpiderHub_Main_1x.stl	: Black
+SecondaryMirrorCell-TiltPlate_1x.stl	: Black
+Secondary-UpperClamp_2x.stl	: Black
+
+
+
+Bill of Materials:
+
+Item	Diameter	Length	Type	Qty.
+M2x10-Screw(self tapping)	M2	10	self tapping	4
+M3-Nut(DIN985)	M3		DIN985	3
+M3-Washer(ISO7092)	M3		ISO7092	9
+M3x25-Screw(ISO7380-1)	M3	25	ISO7380-1	3
+M4x12-Screw(GBT834)	M4	12	GBT834	2
+M4x20-Screw(GBT834)	M4	20	GBT834	6
+M4x25-Screw(GBT834)	M4	25	GBT834	9
+M4x16-Screw(ISO10642)	M4	16	ISO10642	4
+M4-Nut(ISO4032)	M4		ISO4032	9
+M4x8-Screw(ISO4762)	M4	8	ISO4762	4
+M4x12-Screw(ISO4762)	M4	12	ISO4762	2
+M4x12-Screw(ISO4762)	M4	12	ISO4762	4
+M4x16-Screw(ISO4762)	M4	16	ISO4762	1
+M4x20-Screw(ISO4762)	M4	20	ISO4762	6
+M4x25-Screw(ISO4762)	M4	25	ISO4762	1
+M4x40-Screw(ISO4762)	M4	40	ISO4762	8
+M4-Washer(ISO7089)	M4		ISO7089	8
+M4x8-Screw(ISO7380-1)	M4	8	ISO7380-1	11
+M4x12-Screw(ISO7380-1)	M4	12	ISO7380-1	3
+M5x16-Screw(GBT834)	M5	16	GBT834	4
+M5x16-Screw(ISO4017)	M5	16	ISO4017	4
+M5x20-Screw(ISO4017)	M5	20	ISO4017	1
+M5x65-Screw(ISO4017)	M5	65	ISO4017	1
+M5-Nut(ISO4032)	M5		ISO4032	6
+M5x8-Screw(ISO4762)	M5	8	ISO4762	12
+M5x10-Screw(ISO4762)	M5	10	ISO4762	4
+M5-Washer(ISO7093-1)	M5		ISO7093-1	2
+M5x16-Screw(ISO7380-1)	M5	16	ISO7380-1	2
+M6-Nut(DIN466)	M6		DIN466	2
+M6x60-Screw(ISO4017)	M6	60	ISO4017	2
+M6-Nut(ISO4032)	M6		ISO4032	1
+M6-Washer(ISO7089)	M6		ISO7089	3
+M6-Washer(ISO7093-1)	M6		ISO7093-1	8
+M6x10-Screw(ISO7380-1)	M6	10	ISO7380-1	2
+M6x16-Screw(ISO7380-1)	M6	16	ISO7380-1	8
+M6x45-Screw(ISO7380-1)	M6	45	ISO7380-1	1
+Misumi HBLFSN5 equiv.				6
+Misumi HNTT5-5 equiv				23
+Misumi HNTT5-4 equiv				4
+9.2mm ID 12mm OD 25mm L SS304 Spring				4
+M4x6x4 insert				29
+S623 bearing				6
+S624 bearing				4
